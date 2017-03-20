@@ -11,7 +11,10 @@
     "start": "ember server",
     "test": "ember try:each"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/windwww/ember-k"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -44,7 +47,8 @@
     "ember-addon"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.6"
+    "ember-cli-babel": "^5.1.6",
+    "rsvp": "^3.5.0"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
