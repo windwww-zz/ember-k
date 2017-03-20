@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Ember-k
 
 This README outlines the details of collaborating on this Ember addon.
@@ -26,7 +25,6 @@ This README outlines the details of collaborating on this Ember addon.
 * `ember build`
 
 For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
-=======
+
 # ember-k
 Ember with Kintojs
->>>>>>> 2e16826a3ff797d53ec7038884f7fda69ce07229
