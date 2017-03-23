@@ -1,0 +1,1 @@
+export default "ember-kinto-js";

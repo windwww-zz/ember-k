@@ -1,8 +1,11 @@
 /*jshint node:true*/
-var RSVP = require('rsvp');
+import Ember from 'ember';  
+
+//var RSVP = require('rsvp');
+var RSVP = Ember.RSVP;
 module.exports = {
   description: '',
-  normalizeEntityName: function() {},
+  normalizeEntityName: 'ember-k',
 
   afterInstall: function() {
     return RSVP.all([
