@@ -1,8 +1,8 @@
 /*jshint node:true*/
-import Ember from 'ember';  
+//import Ember from 'ember';  
 
-//var RSVP = require('rsvp');
-var RSVP = Ember.RSVP;
+var RSVP = require('rsvp');
+//var RSVP = Ember.RSVP;
 module.exports = {
   description: '',
   normalizeEntityName: 'ember-k',
