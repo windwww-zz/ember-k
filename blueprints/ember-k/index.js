@@ -5,13 +5,14 @@ var RSVP = require('rsvp');
 //var RSVP = Ember.RSVP;
 module.exports = {
   description: '',
-  normalizeEntityName: 'ember-k',
+  normalizeEntityName: function() {},
 
   afterInstall: function() {
     return RSVP.all([
       this.addPackageToProject('ember-k'),
       this.addPackageToProject('kinto'),
-      //this.addAddonToProject('ember-browserify'),
+      this.addAddonToProject('ember-browserify'),
+      this.addPackageToProject('babel-runtime'),
     ]);
   },
 
