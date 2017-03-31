@@ -6,13 +6,16 @@ var RSVP = require('rsvp');
 module.exports = {
   description: '',
   normalizeEntityName: function() {},
+  isDevelopingAddon: function() {  
+    return false;
+  },
 
   afterInstall: function() {
     return RSVP.all([
-      this.addPackageToProject('ember-k'),
-      this.addPackageToProject('kinto'),
+      //this.addPackageToProject('ember-k'),
+      //this.addPackageToProject('kinto'),
       this.addAddonToProject('ember-browserify'),
-      this.addPackageToProject('babel-runtime'),
+      //this.addPackageToProject('babel-runtime'),
     ]);
   },
 
