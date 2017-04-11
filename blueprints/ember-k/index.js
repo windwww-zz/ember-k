@@ -11,12 +11,16 @@ module.exports = {
   },
 
   afterInstall: function() {
+    /*
     return RSVP.all([
-      //this.addPackageToProject('ember-k'),
-      //this.addPackageToProject('kinto'),
+      this.addPackageToProject('ember-k'),
+      this.addPackageToProject('kinto'),
       this.addAddonToProject('ember-browserify'),
       //this.addPackageToProject('babel-runtime'),
-    ]);
+    ]);*/
+    return this.addPackageToProject('kinto').then(()=>{
+      return this.addAddonToProject('ember-browserify');
+    });
   },
 
   // locals: function(options) {

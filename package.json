@@ -1,6 +1,6 @@
 {
   "name": "ember-k",
-  "version": "0.0.28",
+  "version": "0.0.33",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
