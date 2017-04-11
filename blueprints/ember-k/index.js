@@ -14,7 +14,7 @@ module.exports = {
     return RSVP.all([
       //this.addPackageToProject('ember-k'),
       //this.addPackageToProject('kinto'),
-      this.addAddonToProject('ember-browserify'),
+      //this.addAddonToProject('ember-browserify'),
       //this.addPackageToProject('babel-runtime'),
     ]);
   },
