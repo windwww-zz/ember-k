@@ -6,3 +6,10 @@ Using Kintojs in Ember Application
 ## Installation
 
 * `ember install ember-k`
+
+TODO
+- a todo task dummy app demo
+- create a servie for Kintojs and store the colloections
+- unit test
+- pass sync parameter to .save()
+- welcome your comment on new function
