@@ -1,0 +1,18 @@
+<H1>
+  Hello World!
+</H1>
+<table>
+  {{#each model as |task|}}
+  <tr>
+    <td>
+      {{input value=(mut task.description) size=60}}
+    </td>
+    <td>
+      <button {{action "update" task.id task.description}} >Update</button>
+    </td>
+    <td>
+      <button {{action "remove" task.id}} >Remove</button>
+    </td>
+  </tr>
+  {{/each}}
+</table>
