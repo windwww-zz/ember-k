@@ -1,6 +1,6 @@
 {
   "name": "ember-k",
-  "version": "0.0.39",
+  "version": "0.0.40",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
@@ -23,7 +23,9 @@
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
     "ember-ajax": "^2.0.1",
-    "//": {"ember-browserify": "1.1.13"},
+    "//": {
+      "ember-browserify": "1.1.13"
+    },
     "ember-cli": "2.8.0",
     "ember-cli-app-version": "^1.0.0",
     "ember-cli-dependency-checker": "^1.2.0",
@@ -47,9 +49,10 @@
     "ember-addon"
   ],
   "dependencies": {
-    "//":{"rsvp": "^3.5.0"},
-    "ember-cli-babel": "*",
-    "//":{"kinto": "^8.0.0"}
+    "//": {
+      "kinto": "^8.0.0"
+    },
+    "ember-cli-babel": "*"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
