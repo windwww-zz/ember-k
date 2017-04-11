@@ -18,7 +18,7 @@ module.exports = {
       this.addAddonToProject('ember-browserify'),
       //this.addPackageToProject('babel-runtime'),
     ]);*/
-    console.log('0.0.30\n\n');
+    console.log('0.0.40\n\n');
     /*return this.addPackageToProject('kinto')/*.then(()=>{
       return this.addAddonToProject('ember-browserify');
     });*/
