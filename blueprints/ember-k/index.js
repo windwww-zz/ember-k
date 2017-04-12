@@ -18,7 +18,6 @@ module.exports = {
       this.addAddonToProject('ember-browserify'),
       //this.addPackageToProject('babel-runtime'),
     ]);*/
-    console.log('0.0.44\n\n');
     /*return this.addPackageToProject('kinto')/*.then(()=>{
       return this.addAddonToProject('ember-browserify');
     });*/
@@ -32,7 +31,7 @@ module.exports = {
     });
 
     return promise;*/
-
+    return this.addAddonToProject('ember-browserify');
   },
 
   // locals: function(options) {
