@@ -47,10 +47,9 @@
     "ember-addon"
   ],
   "dependencies": {
-    "kinto": "^8.0.0",
-    "ember-browserify": "1.1.13",
+    "rsvp": "^3.5.0",
     "ember-cli-babel": "*",
-    "babel-runtime": "^6.23.0"
+    "kinto": "^8.0.0"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
